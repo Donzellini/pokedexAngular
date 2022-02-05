@@ -1,3 +1,21 @@
-.pokemon-card
-    $__image
-        background: #F2F2F2
+.pokemon-card__image{
+    background: #F2F2F2;
+}
+
+.pokemon-card__number{
+    padding: 0 10px;
+}
+
+.pokemon-card__name{
+    padding: 0 10px;
+}
+
+.pokemon-card__types{
+    display: flex;
+}
+
+.pokemon-card__type{
+    margin: 0 10px;
+    padding: 5px;
+}
+    
