@@ -1,6 +1,6 @@
 import {Type} from './type';
 
-interface Pokemon {
+export interface Pokemon {
     image: string;
     number: number;
     name: string;

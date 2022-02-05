@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { Pokemon } from './_models/Pokemon';
+import { Pokemon } from 'src/_model/pokemon';
+import { Type } from 'src/_model/Type';
 
 @Component({
   selector: 'app-pokemon-list',
@@ -11,7 +12,7 @@ export class PokemonListComponent {
     {
       image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png',
       number: 1, 
-      name: 'Bulbasaur'
+      name: 'Bulbasaur',
       types: [
         Type.Grass,
         Type.Poison,
