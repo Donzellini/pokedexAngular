@@ -10,7 +10,7 @@ import { PokedexCardComponent } from './pokedex-card/pokedex-card.component';
   declarations: [
     AppComponent,
     PokemonListComponent,
-    PokedexCardComponent
+    PokedexCardComponent,
   ],
   imports: [
     BrowserModule,
