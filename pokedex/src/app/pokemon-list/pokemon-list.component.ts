@@ -17,15 +17,6 @@ export class PokemonListComponent {
         Type.Grass,
         Type.Poison,
       ],
-    },
-    {
-      image: 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png',
-      number: 1, 
-      name: 'Bulbasaur',
-      types: [
-        Type.Grass,
-        Type.Poison,
-      ],
     }
   ];
 }
